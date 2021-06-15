@@ -18,6 +18,7 @@ namespace Session5_Asp.net
                 ddlCountry.DataTextField = "Country";
                 ddlCountry.DataValueField = "CountryId";
                 ddlCountry.DataBind();
+
             }
         }
 
@@ -47,6 +48,7 @@ namespace Session5_Asp.net
         {
             var SelectedCountry = ddlCountry.SelectedValue;
             var SelectedText = ddlCountry.SelectedItem.Text;
+            hdnStudenTid.Value = SelectedText;
             switch (SelectedCountry)
             {
                 case "1":
@@ -73,6 +75,8 @@ namespace Session5_Asp.net
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
+            Response.Write("Value from Hidden field" + hdnStudenTid.Value);
+
             string genderType;
             if (rdbFemale.Checked)
             {

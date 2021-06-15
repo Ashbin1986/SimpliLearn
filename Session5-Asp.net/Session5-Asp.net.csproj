@@ -126,7 +126,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="LoginForm.aspx" />
     <Content Include="Navigations.aspx" />
+    <Content Include="ReadCookie.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -156,7 +158,10 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Server_Validations.aspx" />
+    <Content Include="SessionHomePage.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="StateManagment.aspx" />
+    <Content Include="StudentDetailsViews.aspx" />
     <Content Include="uploads\DB.txt" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -197,6 +202,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LoginForm.aspx.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginForm.aspx.designer.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Navigations.aspx.cs">
       <DependentUpon>Navigations.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -205,12 +217,26 @@
       <DependentUpon>Navigations.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadCookie.aspx.cs">
+      <DependentUpon>ReadCookie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReadCookie.aspx.designer.cs">
+      <DependentUpon>ReadCookie.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Server_Validations.aspx.cs">
       <DependentUpon>Server_Validations.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Server_Validations.aspx.designer.cs">
       <DependentUpon>Server_Validations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionHomePage.aspx.cs">
+      <DependentUpon>SessionHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionHomePage.aspx.designer.cs">
+      <DependentUpon>SessionHomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -224,6 +250,20 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="StateManagment.aspx.cs">
+      <DependentUpon>StateManagment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StateManagment.aspx.designer.cs">
+      <DependentUpon>StateManagment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDetailsViews.aspx.cs">
+      <DependentUpon>StudentDetailsViews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentDetailsViews.aspx.designer.cs">
+      <DependentUpon>StudentDetailsViews.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

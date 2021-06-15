@@ -35,6 +35,13 @@
 
         </div>
 
+        <div>
+
+            Hidden Fields
+            <asp:HiddenField ID="hdnStudenTid" runat="server" />
+
+        </div>
+
     </form>
 </body>
 </html>
