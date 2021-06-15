@@ -1,0 +1,12 @@
+Atomicity: A transaction is a single unit of operation. You either execute it entirely or do not execute it at all. 
+There cannot be partial execution.
+
+Consistency: Once the transaction is executed, it should move from one consistent state to another.
+
+Isolation: Transaction should be executed in isolation from other transactions (no Locks).
+ During concurrent transaction execution, intermediate transaction results from simultaneously executed transactions
+ should not be made available to each other. (Level 0,1,2,3)
+
+
+Durability: · After successful completion of a transaction, the changes in the database should persist. 
+Even in the case of system failures.
