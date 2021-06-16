@@ -106,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Ajax.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -159,16 +160,26 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Server_Validations.aspx" />
     <Content Include="SessionHomePage.aspx" />
+    <Content Include="ShowRecords.aspx" />
     <Content Include="Site.Master" />
     <Content Include="StateManagment.aspx" />
     <Content Include="StudentDetailsViews.aspx" />
+    <Content Include="UnAuthorized.aspx" />
     <Content Include="uploads\DB.txt" />
+    <Content Include="ViewStateExample.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ajax.aspx.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax.aspx.designer.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -238,6 +249,13 @@
     <Compile Include="SessionHomePage.aspx.designer.cs">
       <DependentUpon>SessionHomePage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ShowRecords.aspx.cs">
+      <DependentUpon>ShowRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowRecords.aspx.designer.cs">
+      <DependentUpon>ShowRecords.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -247,6 +265,7 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
@@ -265,8 +284,23 @@
     <Compile Include="StudentDetailsViews.aspx.designer.cs">
       <DependentUpon>StudentDetailsViews.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UnAuthorized.aspx.cs">
+      <DependentUpon>UnAuthorized.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnAuthorized.aspx.designer.cs">
+      <DependentUpon>UnAuthorized.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewStateExample.aspx.cs">
+      <DependentUpon>ViewStateExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewStateExample.aspx.designer.cs">
+      <DependentUpon>ViewStateExample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

@@ -17,7 +17,8 @@ namespace Session5_Asp.net
             }
             else
             {
-                lblUserName.Text = string.Empty;
+                //lblUserName.Text = string.Empty;
+                Response.Redirect("UnAuthorized.aspx");
 
             }
         }
@@ -26,6 +27,7 @@ namespace Session5_Asp.net
         {
             Session.Abandon();
             Session["UserName"] = null;
+            Response.Redirect("LoginForm.aspx?sessionifo=Logout");
         }
     }
 }

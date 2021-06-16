@@ -16,6 +16,12 @@ namespace Session5_Asp.net
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            Application["OnlineUsers"] = Convert.ToInt32(Application["OnlineUsers"]) + 1;
+        }
+        void Application_Error(object sender, EventArgs e)
+        {
+
         }
     }
 }

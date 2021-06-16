@@ -67,7 +67,6 @@ C:\Users\ashbi\source\repos\Ashbin1986\SimpliLearn\Session5-Asp.net\bin\Newtonso
 C:\Users\ashbi\source\repos\Ashbin1986\SimpliLearn\Session5-Asp.net\bin\Antlr3.Runtime.pdb
 C:\Users\ashbi\source\repos\Ashbin1986\SimpliLearn\Session5-Asp.net\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\ashbi\source\repos\Ashbin1986\SimpliLearn\Session5-Asp.net\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\ashbi\source\repos\Ashbin1986\SimpliLearn\Session5-Asp.net\obj\Debug\Session5-Asp.net.csproj.AssemblyReference.cache
 C:\Users\ashbi\source\repos\Ashbin1986\SimpliLearn\Session5-Asp.net\obj\Debug\Session5-Asp.net.csproj.CoreCompileInputs.cache
 C:\Users\ashbi\source\repos\Ashbin1986\SimpliLearn\Session5-Asp.net\obj\Debug\Session5-Asp.net.csproj.CopyComplete
 C:\Users\ashbi\source\repos\Ashbin1986\SimpliLearn\Session5-Asp.net\obj\Debug\Session5-Asp.net.dll
